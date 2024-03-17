@@ -2,7 +2,7 @@
   <a href="https://vitejs.dev/">
     <img width="200" height="200" hspace="10" src="https://vitejs.dev/logo.svg" alt="vite logo" />
   </a>
-  <h1>Vite Robots</h1>
+  <h1>Vite Robots.txt</h1>
 
   <p>
     Plugin for <a href="https://vitejs.dev/">Vite</a> to generating robots.txt for production and development builds.
