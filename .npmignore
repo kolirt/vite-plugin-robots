@@ -7,3 +7,4 @@ yarn.lock
 vite.*
 .env
 examples
+posters

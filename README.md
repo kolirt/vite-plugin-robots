@@ -23,6 +23,16 @@
 
 The package allows you to customize different `robots.txt` for `production` mode and `development` mode.
 
+```bash
+vite build
+```
+<img src="./posters/prod.png">
+
+```bash
+vite build --mode=development
+```
+<img src="./posters/dev.png">
+
 ## Installation
 
 Use yarn or npm to install the package `vite-plugin-robots`.
