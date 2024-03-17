@@ -6,8 +6,8 @@ export function log(rootConfig: ResolvedConfig, robotsPath: string, robotsOutput
   rootConfig.logger.info('')
   rootConfig.logger.info(`✨ ${ansi.cyan('[vite-plugin-robots]')}:`)
 
-  const fullPathFrom = path.parse(robotsPath.replace(__dirname, '').replace(/^\//, ''))
-  const fullPathTo = path.parse(robotsOutputPath.replace(__dirname, '').replace(/^\//, ''))
+  const fullPathFrom = path.parse(robotsPath.replace(rootConfig.root, '').replace(/^\//, ''))
+  const fullPathTo = path.parse(robotsOutputPath.replace(rootConfig.root, '').replace(/^\//, ''))
 
   rootConfig.logger.info(
     ansi.green('✓ Copied: ') +
