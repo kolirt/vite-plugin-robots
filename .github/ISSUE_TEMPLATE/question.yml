@@ -1,0 +1,22 @@
+name: 💬 Question
+description: Ask a question about the vite-plugin-robots.
+title: '[Question]: '
+labels: [ question ]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before asking a question, please make sure that you have read through our [documentation](https://github.com/kolirt/vite-plugin-robots#readme) and existing [issues](https://github.com/kolirt/vite-plugin-robots/issues).
+  - type: input
+    id: version
+    attributes:
+      label: Package version
+      description: |
+        Leave blank if you have not yet configured the package and have not used it.
+      placeholder: v1.0.0
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true

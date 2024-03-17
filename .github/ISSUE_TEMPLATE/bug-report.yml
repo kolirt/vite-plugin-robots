@@ -1,0 +1,48 @@
+name: 🐞 Bug report
+description: Create a report to help us improve vite-plugin-robots.
+title: '[Bug]: '
+labels: [ bug ]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before reporting a bug, please make sure that you have read through our [documentation](https://github.com/kolirt/vite-plugin-robots#readme) and existing [issues](https://github.com/kolirt/vite-plugin-robots/issues).
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: v1.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: |
+        How do you trigger this bug? Please walk us through it step by step.
+        Note that you can use [Markdown](https://guides.github.com/features/mastering-markdown/) to format lists and code.
+      placeholder: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is. If you intend to submit a PR for this issue, tell us in the description. Thanks!
+      placeholder: Bug description
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Context & Screenshots (if applicable)
+      description: |
+        If applicable, provide any additional context or screenshots of the bug.
+        You can drag and drop images here to add them to the issue.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: |
+        Optional if provided reproduction. Please try not to insert an image but copy paste the log text.
+      render: shell-script

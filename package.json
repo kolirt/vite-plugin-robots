@@ -1,0 +1,61 @@
+{
+  "name": "vite-plugin-robots",
+  "version": "1.0.0",
+  "description": "Vite plugin to generating robots.txt for production and development builds",
+  "author": "kolirt",
+  "private": false,
+  "license": "MIT",
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "robots",
+    "robots.txt"
+  ],
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "format": "prettier --write \"**/*.{ts,js,cjs,vue,json}\""
+  },
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kolirt/vite-plugin-robots"
+  },
+  "bugs": {
+    "url": "https://github.com/kolirt/vite-plugin-robots/issues"
+  },
+  "homepage": "https://github.com/kolirt/vite-plugin-robots#readme",
+  "engines": {
+    "node": ">=14"
+  },
+  "resolutions": {
+    "strip-ansi": "^6.0.1"
+  },
+  "peerDependencies": {
+    "vite": ">=3"
+  },
+  "dependencies": {
+    "ansi-colors": "^4.1.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.28",
+    "prettier": "^3.2.5",
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "typescript": "^5.4.2",
+    "vite": "^4.5.2",
+    "vite-plugin-dts": "^2.3.0"
+  }
+}
