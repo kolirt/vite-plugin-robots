@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-robots",
   "version": "1.0.0",
-  "description": "Vite plugin to generating robots.txt for production and development builds",
+  "description": "Vite plugin for generating robots.txt for production and development builds",
   "author": "kolirt",
   "private": false,
   "license": "MIT",
