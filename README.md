@@ -19,6 +19,12 @@
   <img src="https://img.shields.io/npm/l/vite-plugin-robots" alt="licence" />
 </div>
 
+<br/>
+
+<a href="https://www.buymeacoffee.com/kolirt" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
+</a>
+
 ## Introduction
 
 The package allows you to customize different `robots.txt` for `production` mode and `development` mode.
