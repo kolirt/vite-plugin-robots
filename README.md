@@ -14,7 +14,9 @@
   
   <img src="https://img.shields.io/bundlephobia/minzip/vite-plugin-robots?label=minfied" alt="npm bundle size"/>
   
-  <img src="https://img.shields.io/github/v/release/fatehak/vite-plugin-robots" alt="GitHub release" />
+  <a href="https://www.npmjs.com/package/vite-plugin-robots" target="_blank">
+    <img src="https://img.shields.io/npm/v/vite-plugin-robots" alt="npm-version" />
+  </a>
 
   <img src="https://img.shields.io/npm/l/vite-plugin-robots" alt="licence" />
 </div>
