@@ -9,7 +9,10 @@
     "vite",
     "vite-plugin",
     "robots",
-    "robots.txt"
+    "robots.txt",
+    "vue",
+    "react",
+    "angular"
   ],
   "scripts": {
     "start": "vite",
