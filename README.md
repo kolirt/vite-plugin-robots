@@ -1,7 +1,5 @@
 <div align="center">
-  <a href="https://vitejs.dev/">
-    <img width="200" height="200" hspace="10" src="https://vitejs.dev/logo.svg" alt="vite logo" />
-  </a>
+  <a href="https://vitejs.dev/"><img width="200" height="200" hspace="10" src="https://vitejs.dev/logo.svg" alt="vite logo" /></a>
   <h1>Vite Robots.txt</h1>
 
   <p>
@@ -15,8 +13,7 @@
   <img src="https://img.shields.io/bundlephobia/minzip/vite-plugin-robots?label=minfied" alt="npm bundle size"/>
   
   <a href="https://www.npmjs.com/package/vite-plugin-robots" target="_blank">
-    <img src="https://img.shields.io/npm/v/vite-plugin-robots" alt="npm-version" />
-  </a>
+    <img src="https://img.shields.io/npm/v/vite-plugin-robots" alt="npm-version" /></a>
 
   <img src="https://img.shields.io/npm/l/vite-plugin-robots" alt="licence" />
 </div>
