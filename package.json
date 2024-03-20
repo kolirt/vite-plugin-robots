@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-robots",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Vite plugin for generating robots.txt for production and development builds",
   "author": "kolirt",
   "private": false,
@@ -17,7 +17,7 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "format": "prettier --write \"**/*.{ts,js,cjs,vue,json}\""
+    "format": "prettier --write \"**/*.{ts,js,cjs,vue,json,prettierrc}\""
   },
   "files": [
     "dist"
